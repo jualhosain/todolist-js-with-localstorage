@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+  background: rgb(224, 17, 255);
+  background-image: linear-gradient(136deg, #00BCD4 40%,rgba(222, 0, 255, 0.74) 25%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: arial;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+#wrapper{
+  width: 800px;
+  margin-top: 10%;
+}
+
+.iWithB {
+    width: 100%;
+    height: 50px;
+    margin: 0 0 18px 0;
+}
+
+.iput {
+    width: 85%;
+    float: left;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    width: 15%;
+    float: right;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.iput input {
+    width: 97%;
+    height: 100%;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    transition: all 0.5s;
+    padding: 0px 25px;
+}
+
+.button button {
+    width: 90%;
+    height: 100%;
+    border-radius: 9px;
+    border: none;
+    background: #009688;
+    font-size: 22px;
+    letter-spacing: 4px;
+    color: white;
+    font-family: cursive;
+    outline: none;
+    transition: all 0.5s;
+}
+
+.button button:hover {
+    background: #005850;
+}
+
+.iput input:focus {
+    box-shadow: inset 0px 0px 5px 1px #00968875;
+}
+.Main {
+    width: 100%;
+    padding: 0 16px;
+}
+
+.Main li {
+    width: 84%;
+    padding: 14px;
+    background: #d2d2ff;
+    list-style: none;
+    border: 1px solid #009688;
+    border-radius: 6px;
+    font-size: 17px;
+    color: #009688;
+    font-variant: small-caps;
+    margin: 5px 0;
+    transition: all 0.5s;
+}
+
+
+.Main ul {
+    width: 100%;
+
+}
+button.buttonLi {
+    float: right;
+    width: 81px;
+    height: 33px;
+    margin-top: -7px;
+    border-radius: 6px;
+    border: none;
+    background: red;
+    color: white;
+    font-size: 13px;
+    letter-spacing: 2px;
+    transition: all 0.4s;
+    font-variant: small-caps;
+}
+
+button.buttonLi:hover {
+    width: 86px;
+}
+
+.removebtn{
+  display:none;
+}
+.Main li:hover .removebtn{
+  display:block;
+}
+.Main li:hover {
+    width: 86%;
+}
